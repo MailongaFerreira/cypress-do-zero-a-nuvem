@@ -2,27 +2,40 @@
 
 👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+É muito bom tê-lo(a) aqui. 
 
-## O que você vai aprender?
+Esse Repositório é um local de estudo e direcionamento sobre as atualizações do Cypress até 2025.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Espero que isso ajude em seus questionamentos também.
 
-## Vamos começar?
+### Pré-requisitos
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Versões utilizadas durante a criação desse repositório:
 
-___
+Npm: `11.13.0`
+Node: `24.11.1`
+Git: `2.25.0`
 
-Este é um curso da **Escola Talking About Testing**.
+Caso não seja possível instalar essas versões recomendo a utilização da LTS Version como recomendado pelo criador desse curso. 
+
+`Observação: Esse Repositório foi criado com as LTS Versions de 2026, pois era o que tinha parametrizado e estruturado na minha máquina, provando que mesmo em versões diferentes esse curso ainda pode ser utilizado como base referêncial de ensino.`
+
+### Instalação
+
+Run `npm install` ou `npm i` (versão curta) para instalar as dependências. 
+
+### Testes
+
+Os Testes podem ser realizados em Desktop e Mobile. 
+
+## English Version-🌲Cypress, from Zero to the Cloud☁️ 
+
+Welcome!
+
+Is so good to see you here!
+
+This Repository it's a local study session with the focus on Cypress updates up to 2025. 
+
+I hope this helps with your questions as well.
+
+#### Give a Star if the Repository have help you.
