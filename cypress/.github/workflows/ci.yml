@@ -1,19 +1,24 @@
-name: Cypress Tests
+name: Cypress CI Tests
 
 on: push
 
 jobs:
-  cypress-run:
+  install:
     runs-on: ubuntu-24.04
-    container:
-      image: cypress/browsers:22.15.0
-      options: --user 1001
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Cypress run
+
+      - name: Cypress install
         uses: cypress-io/github-action@v7
         with:
+          # Disable running of tests within install job
+          runTests: false
           build: npm run build
-          start: npm start
-          browser: chrome
+
+      - name: Save build folder
+        uses: actions/upload-artifact@v6
+        with:
+          name: build
+          if-no-files-found: error
+          path: dist
