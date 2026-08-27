@@ -22,7 +22,7 @@ describe('Realizando Upload de Arquivos', () => {
     });
 
     // Exercício Extra 2: Upload de Arquivos com Alias
-    it.only('Seleção de Arquivo com nome Alias', () => {
+    it('Seleção de Arquivo com nome Alias', () => {
         cy.fixture('example.json').as('sampleFile')
         cy.get('#file-upload')
           .selectFile('@sampleFile')

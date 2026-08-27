@@ -12,7 +12,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
   });
 
 // Exercício 2: Selecionando Pelo Indice
-  it.only('Selecionando via Indice', () => {
+  it('Selecionando via Indice', () => {
       cy.get('select')
         .select(1)
         .should('have.value', 'blog')

@@ -182,7 +182,7 @@ it('Validando Comando Customizado', () => {
 
 // Exercício - Extra 8: Utilizando o Contains()
 
-it.only('Validando o Método Contains', () => {
+it('Validando o Método Contains', () => {
     cy.contains('#product', 'Selecione')
       .should('be.visible')
       .select('Mentoria')

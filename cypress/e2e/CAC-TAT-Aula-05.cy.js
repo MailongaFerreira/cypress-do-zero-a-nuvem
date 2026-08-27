@@ -3,7 +3,7 @@ describe('Aula 05 - Marcando (e desmarcando) inputs do tipo checkbox', () => {
         cy.visit('./src/index.html')
     }); 
     
-    it.only('Validando Marcação de Checkbox', () => {
+    it('Validando Marcação de Checkbox', () => {
         cy.get('input[type="checkbox"]')
           .each(($checkbox) => {
             cy.wrap($checkbox)
@@ -15,7 +15,7 @@ describe('Aula 05 - Marcando (e desmarcando) inputs do tipo checkbox', () => {
           .should('not.be.checked')
     });
 
-    it.only('Utilizando Check() na Marcação da Flag de Telefone', () => {
+    it('Utilizando Check() na Marcação da Flag de Telefone', () => {
      
        cy.fillMandatoryFieldsAndSubmit()
 

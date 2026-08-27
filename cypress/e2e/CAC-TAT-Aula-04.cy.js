@@ -29,7 +29,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
 
     });
 
-    it.only('Validando Radio Button com .each()', () => {
+    it('Validando Radio Button com .each()', () => {
         cy.get('input[type="radio"]')
           .each(($radio) => {
               cy.wrap($radio)
