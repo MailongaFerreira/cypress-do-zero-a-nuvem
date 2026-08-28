@@ -108,7 +108,7 @@ describe('Validando Tempo de Mensagem', () => {
   })
 
   // Exercício 4 - Aula sore a Função Request em Cypress para Testes de API
-    it.only('Validando a Função Request para Testes de API', () => {
+    it('Validando a Função Request para Testes de API', () => {
 
         cy.request('https://cac-tat.s3.eu-central-1.amazonaws.com/index.html')
             .should((response) => {
